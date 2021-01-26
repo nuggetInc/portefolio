@@ -1,0 +1,32 @@
+.hdigt {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+
+.hdigt header h1 {
+    margin: 60px 0 30px 0;
+    text-align: center;
+}
+
+.hdigt > .content {
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 30px 40px 5px rgba(192,192,192,.4);
+}
+
+.hdigt > .content section header {
+    padding: 1rem;
+}
+
+.hdigt > .content section:nth-of-type(1) header {
+    border-radius: 25px 25px 0 0;
+}
+
+.hdigt > .content section header h2 {
+    text-align: center;
+    color: white;
+}
+
+.hdigt > .content section .content {
+    padding: 1rem;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 300vh;
+}
+
+* {
+    margin-bottom: 0;
+}
+
+:not(* + *) {
+    margin-top: 0;
+}
+
+.page-wrapper {
+    margin: 0 10vw;
+}

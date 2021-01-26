@@ -1,0 +1,57 @@
+.where-am-I {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.where-am-I header h1 {
+    margin: 60px 0 30px 0;
+    text-align: center;
+}
+
+.where-am-I .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.where-am-I .row .card {
+    margin: 10px;
+    width: 22vw;
+    min-width: 300px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 30px 40px 0 rgba(192,192,192,.4);
+}
+
+.where-am-I .row .card header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.where-am-I .row .card header .icon-wrapper {
+    display: flex;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.where-am-I .row .card header .icon-wrapper img {
+    display: block;
+    margin: auto auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.where-am-I .row .card header h2 {
+    color: white;
+    margin: 0 1rem;
+}
+
+.where-am-I .row .card .content {
+    padding: 1rem;
+    color: black;
+    overflow-y:auto;
+}
